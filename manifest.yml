@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: victor-lab-day2
+  host: victor-lab-day2
+  disk_quota: 1024M
+  services:
+  - Single Sign On-fa
+  env:
+    ENABLE_BLUEMIX_DEV_MODE: 'true'
